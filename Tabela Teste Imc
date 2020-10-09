@@ -18,4 +18,71 @@ public class TestaCalculadoraImc {
               Assert.assertEquals ("Baixo peso muito grave", calc.calcularImc(54.72,1.85,31,"F"));
       }        
     
-
+       }
+      
+      @Test 
+      public void testAdultoBaixoPesoGraveMinimo() {
+              Assert.assertEquals ("Baixo peso grave", calc.calcularImc(77.00,2.193,64,"M"));
+      }        
+          
+      @Test 
+      public void testAdultoBaixoPesoGraveMaximo() {
+              Assert.assertEquals ("Peso grave maximo", calc.calcularImc(64.1,941,64,"F"));
+      }        
+      {
+      
+      @Test 
+      public void testAdultoBaixoPesoGraveMinimo() {
+              Assert.assertEquals ("Peso minimo grave", calc.calcularImc(24.00,1,66,24,"M"));
+      }        
+      
+      @Test 
+      public void testAdultoSobrepesoMaximo() {
+              Assert.assertEquals ("SobrepesoMaximo ", calc.calcularImc(68.00,1.88,60,"F"));
+      }        
+       @Test 
+      public void testAdultoSobrePesoMinimo() {
+              Assert.assertEquals ("Sobrepeso Minimo ", calc.calcularImc(46.00,1.56,72,"M"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(22.00,1.63,32,"F"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(60.00,1.75,66,"M"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(70.00,1.55,88,"F"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(40.00,1.456,12,"M"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(70.00,1.25,43,""));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(20.00,1.66,24,"F"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(34.00,1.67,23,"M"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(12.00,1.22,10,"F"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(77.00,1.11,24,"M"));
+      }        
+       @Test 
+      public void testAdultoBaixoPesoMinimo() {
+              Assert.assertEquals ("Baixo peso ", calc.calcularImc(55.00,1.798,24,"F"));
+    
+      
+      
