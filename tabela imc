@@ -10,20 +10,20 @@ public class Imc {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("Digite seu nome");
+		System.out.println("Digite o seu  nome");
 		String nome = ler.next();
 		
-		System.out.println("Digite seu sexo");
+		System.out.println("Digite o seu sexo");
 		String sexo = ler.next();
 		char sexo1 = sexo.charAt(0);
 		
-		System.out.println("Digite sua idade");
+		System.out.println("Digite a sua idade");
 		int idade = ler.nextInt();
 		
-		System.out.println("Digite sua altura");
+		System.out.println("Digite a sua altura");
 		double altura = ler.nextDouble();
 		
-		System.out.println("Digite seu peso");
+		System.out.println("Digite o seu peso");
 		double peso = ler.nextDouble();
 		
 		double imc=0;
@@ -38,22 +38,22 @@ public class Imc {
 			System.out.println("Menor de idade");
 			
 			if (imc < 11) {
-				System.out.println("Baixo peso");
+				System.out.println("Voce esta abaixo do peso");
 				
 			}
 			
 			else if (imc >10 && imc < 86) {
-				System.out.println("Peso normal ");
+				System.out.println(" Você está no Peso normal ");
 				
 			}
 			
 			else if (imc >85 && imc < 96) {
-				System.out.println("Sobrepeso");
+				System.out.println("Voce esta Sobrepeso");
 				
 			}
 			
 			else if (imc >95 ) {
-				System.out.println("Obesidade");	
+				System.out.println("Voce esta com Obesidade");	
 			}
 		}
 		
@@ -65,22 +65,22 @@ public class Imc {
 			System.out.println("Menor de idade");
 			
 			if (imc < 11) {
-				System.out.println("Baixo peso");
+				System.out.println("Você esta abaixo do peso");
 				
 			}
 			
 			else if (imc >10 && imc < 85) {
-				System.out.println("Peso normal ");
+				System.out.println("Voce esta com Peso normal ");
 				
 			}
 			
 			else if (imc >85 && imc < 95) {
-				System.out.println("Sobrepeso");
+				System.out.println("Voce esta com Sobrepeso");
 				
 			}
 			
 			else if (imc >94 ) {
-				System.out.println("Obesidade");	
+				System.out.println("Voce esta com Obesidade");	
 			}
 		}
 			
