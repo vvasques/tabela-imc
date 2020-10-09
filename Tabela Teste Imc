@@ -1,0 +1,21 @@
+package calculadora .imc;
+
+import.org.junit.Assert;
+import.org.junit.before;
+import.org.junit.test;
+
+
+public class TestaCalculadoraImc {
+
+      @Before
+      CalculadoraImc calc;
+      public void setup() {
+              calc = new CalculadoraImc();
+      }
+      
+      @Test 
+      public void testAdultoBaixoPesoMuitoGraveMaximo() {
+              Assert.assertEquals ("Baixo peso muito grave", calc.calcularImc(54.72,1.85,31,"F"));
+      }        
+    
+
